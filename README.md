@@ -29,7 +29,7 @@ To run the script on LINUX:
 	* If you don't have the first/last - the scripts will not display netflows
 
 - flow record FLOW_OUTBOUND
- - match ipv4 tos
+  match ipv4 tos/
  - match ipv4 protocol
  - match ipv4 source address
  - match ipv4 destination address
