@@ -87,9 +87,9 @@ print (" ")
 print (" ")
 print ("\t\t\t\t\t  _______________________  ")
 print ("\t\t\t\t\t |  NETFLOW CONNECTIONS  | ")
-print ("========================================================================================================================================================="
+print ("=========================================================================================================================================================")
 print ("\tTIMESTAMP\t\t DIRECTION\t SOURCE \tPort \tDestination \tPort \tPROTOCOL \tBYTES \tPKTS \tDURATION")
-print ("========================================================================================================================================================="
+print ("=========================================================================================================================================================")
 
 # -----------------------------------------------------------------
 # BEGIN LOOP for printing all NETFLOW SOURCES
@@ -221,3 +221,4 @@ def UNID_Connections():
 #OUTBOUND_Connections()     # Remove the '#' if you wish to see the INBOUND Table (After you have identified the FLOW (lines 96-102)
 
 UNID_Connections()          # Remark this line once you have identified all of your 3-DIGIT number flows (lines 96-102)
+
