@@ -1,6 +1,6 @@
-NOTE: Some editing of the "active_flows_script.py" will be needed to identify
+NOTE: Some editing of the "active_flows.py" will be needed to identify NETFLOWs session number:
 
-		LINE 10           Directory you with to run the script (home diresctory)
+		LINE 10           Directory you with to run the script (home directory)
 
 		LINES 100-104     Netflow DIRECTION and INTERFACE
     		              Cosmetic, but you can do whatever you want)
