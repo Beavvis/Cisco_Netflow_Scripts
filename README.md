@@ -1,8 +1,8 @@
 NOTE: Some editing of the "active_flows_script.py" will be needed to identify
 
-LINE 10            Directory you with to run the script (home diresctory)
-LINES 100-104      Netflow DIRECTION and INTERFACE (Cosmetic, but you can do whatever you want) = Use INBOUND or OUTBOUND in the name for parsing/sorting displayed data.
-LINES 219-221      At the bottom of the script, you can un-remark some functions once you have identified INBOUND/OUTBOUND flow records which is a 3-digit number 
+LINE 10            Directory you with to run the script (home diresctory)/n
+LINES 100-104      Netflow DIRECTION and INTERFACE (Cosmetic, but you can do whatever you want) = Use INBOUND or OUTBOUND in the name for parsing/sorting displayed data./n
+LINES 219-221      At the bottom of the script, you can un-remark some functions once you have identified INBOUND/OUTBOUND flow records which is a 3-digit number/n
  
 
 
