@@ -53,8 +53,8 @@ data = output_string.split()
 SOURCE_ID = 0
 DIRECTION = 0
 START_TIME = 0
-IPV4_SRC_ADDRESS = str("")
-IPV4_DST_ADDRESS = str("")
+IPV4_SRC_ADDRESS = ""
+IPV4_DST_ADDRESS = ""
 PROTOCOL = 0
 L4_SRC_PORT = 0
 L4_DST_PORT = 0
@@ -221,5 +221,6 @@ def UNID_Connections():
 #OUTBOUND_Connections()     # Remove the '#' if you wish to see the INBOUND Table (After you have identified the FLOW (lines 96-102)
 
 UNID_Connections()          # Remark this line once you have identified all of your 3-DIGIT number flows (lines 96-102)
+
 
 
