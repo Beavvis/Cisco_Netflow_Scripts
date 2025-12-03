@@ -66,6 +66,7 @@ LAST_SWITCHED = 0
 TIME = 0
 RECORD_IN = []
 RECORD_OUT = []
+UNID_FLOW = []
 
 # -----------------------------------------------------------------
 # The duration is in ASCII format when the seconds is over 60
@@ -218,4 +219,5 @@ def UNID_Connections():
 
 #INBOUND_Connections()      # Remove the '#' if you wish to see the INBOUND Table (After you have identified the FLOW (lines 96-102)
 #OUTBOUND_Connections()     # Remove the '#' if you wish to see the INBOUND Table (After you have identified the FLOW (lines 96-102)
+
 UNID_Connections()          # Remark this line once you have identified all of your 3-DIGIT number flows (lines 96-102)
