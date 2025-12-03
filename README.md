@@ -42,8 +42,6 @@ flow record FLOW_OUTBOUND
   collect timestamp absolute last     <---
 ```
 
-
-
 6) To run the collector on your LINUX box, first, make sure your local PC (LINUX) firewall is not blocking UDP 2055.  
    I have not done this in a Windows Machine yet, I will test in the future.  
 
@@ -51,7 +49,7 @@ flow record FLOW_OUTBOUND
 
 					sudo python3.11 collector.py -p 2055 -D  
      
-   As netflows stream to your machinem you should see a DEBUG output scrolling on your screen.
+   As netflows stream to your machinem you should see a DEBUG output scrolling on your screen.  
      If you get errors, you may have the listening port blocked by your firewall.  
 
 
@@ -59,9 +57,11 @@ flow record FLOW_OUTBOUND
 
 					python3.11 active_flows.py
 
-You should see a TABLE format of netflow data at this point.
-NOTE: You should read the script: active_flows_script   and make changes (MANUALLY) to identify the FLOW-DIRECTION and INTERFACE that you have configured your Cisco switch with.
+You should see a TABLE format of netflow data at this point.  
 
+> [!NOTE]
+>  You should read the script: active_flows.py and make changes (MANUALLY) to identify the FLOW-DIRECTION(s) and INTERFACE(s)  
+> that you have configured your Cisco device.  
 
 
 
