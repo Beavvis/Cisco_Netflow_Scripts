@@ -27,18 +27,19 @@ To run the script on LINUX:
 
 8) Make sure your Cisco Router/Switch is configured to send NETFLOWS to your machine FIRST!  
 	* If you don't have the first/last - the scripts will not display netflows
-
-- flow record FLOW_OUTBOUND
-  match ipv4 tos/
- - match ipv4 protocol
- - match ipv4 source address
- - match ipv4 destination address
- - match transport source-port
- - match transport destination-port
- - collect counter bytes long
- - collect counter packets long
- - collect timestamp absolute first    <---
- - collect timestamp absolute last     <---
+```
+flow record FLOW_OUTBOUND
+  match ipv4 tos
+  match ipv4 protocol
+  match ipv4 source address
+  match ipv4 destination address
+  match transport source-port
+  match transport destination-port
+  collect counter bytes long
+  collect counter packets long
+  collect timestamp absolute first    <---
+  collect timestamp absolute last     <---
+```
 
 
 
